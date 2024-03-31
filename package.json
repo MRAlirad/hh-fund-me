@@ -2,6 +2,7 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.2",
-    "solhint": "^4.5.2"
+    "solhint": "^4.5.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
   }
 }
