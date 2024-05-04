@@ -13,10 +13,17 @@ however, we realized the more we work with just raw ethers or hardhat, keeping t
     npm install -D hardhat-deploy
 ```
 
-It is also recommended to  install hardhat-deploy-ethers which add extra features to access deployments as ethers contract.
+It is also recommended to install hardhat-deploy-ethers which add extra features to access deployments as ethers contract.
 
 ```shell
     npm install --save-dev  @nomiclabs/hardhat-ethers hardhat-deploy-ethers ethers
 ```
 
 after require it in your hardhat.config.js you have bunch of new tasks, that one of them is deploy
+
+in deploy.js file, every time you run the "deploy" script using the command
+``` shell
+    npx hardhat deploy
+```
+it automatically calls the default module function ann passes the hardhat object into it ((01-depoy.fund-me.js) default export)
+
